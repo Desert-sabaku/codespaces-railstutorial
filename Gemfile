@@ -2,7 +2,6 @@
 
 source "https://rubygems.org"
 
-source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.3.4"
@@ -29,7 +28,7 @@ group :development do
   gem "repl_type_completor", "0.1.2"
   gem "rubocop", require: false
   gem "rubocop-performance", require: false
-  gem "rubocop-rails", require: false 
+  gem "rubocop-rails", require: false
 end
 
 group :test do
