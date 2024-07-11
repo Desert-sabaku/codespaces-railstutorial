@@ -38,3 +38,6 @@
 .irb_history
 
 dump.rdb
+
+/vendor/bundle/*
+/bin/*
